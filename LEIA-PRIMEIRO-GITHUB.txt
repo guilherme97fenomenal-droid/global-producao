@@ -1,0 +1,13 @@
+PACOTE COMPLETO DO SISTEMA INDEPENDENTE
+
+Extraia o ZIP antes de enviar ao GitHub. Envie os arquivos e pastas extraidos, mantendo a estrutura, com package.json na raiz do repositorio.
+
+index.html na raiz e a entrada do codigo-fonte React; a tela e montada por src/main.tsx. dist/index.html e a versao compilada, com scripts em dist/assets. Nenhum dos dois substitui o servidor.
+
+GitHub Pages NAO executa o servidor Node nem o banco SQLite deste projeto. Publicar somente index.html ou dist nao disponibiliza login, pedidos ou cadastros.
+
+Para testar no Windows: execute INICIAR_WINDOWS.cmd e abra http://localhost:3000/.
+
+Para hospedar: conecte o repositorio a um servico Node com disco persistente. Veja docs/HOSPEDAGEM.md. Este ZIP nao publica nem contrata hospedagem.
+
+O pacote nao inclui usuarios, senhas, pedidos ou fotos. Nao envie sua pasta data ao GitHub. Para manter os testes no seu PC, preserve a pasta data da instalacao atual.
